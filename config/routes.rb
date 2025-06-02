@@ -18,4 +18,8 @@ Rails.application.routes.draw do
   devise_scope :user do
     get 'signup', to: 'devise/registrations#new'
   end
+  #<!-- Aqui he tirat de chapuza, no es aixi pero no tira el javascript -->
+  devise_scope :user do
+    get 'logout', to: 'devise/sessions#destroy'
+  end
 end
