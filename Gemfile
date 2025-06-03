@@ -66,7 +66,7 @@ end
   gem 'bootstrap_form'
 
   #test
-  gem 'rspec-rails', '~> 5.1'
+  gem 'rspec-rails', '~> 8.0'
   gem 'rails-controller-testing'
   gem 'headless'
   gem 'capybara'
