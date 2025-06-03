@@ -3,7 +3,7 @@ require 'spec_helper'
 ENV['RAILS_ENV'] ||= 'test'
 
 require 'capybara/poltergeist'
-require 'factory_girl_rails'
+require 'factory_bot_rails'
 require 'capybara/rspec'
 
 
@@ -87,7 +87,7 @@ RSpec.configure do |config|
   # config.filter_gems_from_backtrace("gem name")
 
   config.include Devise::Test::IntegrationHelpers, type: :feature
-  config.include FactoryGirl::Syntax::Methods
+  config.include FactoryBot::Syntax::Methods
   Capybara.javascript_driver = :poltergeist
   Capybara.server = :puma
 
