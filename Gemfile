@@ -65,3 +65,13 @@ end
   gem 'devise'
   gem 'bootstrap_form'
 
+  #test
+  gem 'rspec-rails', '~> 3.6'
+  gem 'rails-controller-testing'
+  gem 'headless'
+  gem 'capybara'
+  gem 'poltergeist'
+  gem 'database_cleaner'
+
+  gem 'factory_bot_rails'
+
